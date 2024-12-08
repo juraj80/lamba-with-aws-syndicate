@@ -12,7 +12,7 @@ exports.handler = async (event) => {
   const response = {
     statusCode: 404,
     body: JSON.stringify({
-      message: "Resource not found",
+      message: `Resource not found. Request path: ${event.rawPath}. HTTP method: ${event.requestContext.http.method}`,
     }),
   };
   return response;
