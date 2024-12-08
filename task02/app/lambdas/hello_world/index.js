@@ -1,8 +1,8 @@
 exports.handler = async (event) => {
   if (event.rawPath === "/hello") {
     const response = {
-      statusCode: 200,
       body: JSON.stringify({
+        statusCode: 200,
         message: "Hello from Lambda",
       }),
     };
@@ -10,8 +10,8 @@ exports.handler = async (event) => {
   }
 
   const response = {
-    statusCode: 404,
     body: JSON.stringify({
+      statusCode: 400,
       message: `Resource not found. Request path: ${event.rawPath}. HTTP method: ${event.requestContext.http.method}`,
     }),
   };
