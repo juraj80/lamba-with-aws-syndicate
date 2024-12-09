@@ -11,7 +11,7 @@ exports.handler = async (event) => {
     statusCode: 400,
     body: JSON.stringify({
       statusCode: 400,
-      message: `Resource not found. Request path: ${event.rawPath}. HTTP method: ${event.requestContext.http.method}`,
+      message: `Bad request syntax or unsupported method. Request path: ${event.rawPath}. HTTP method: ${event.requestContext.http.method}`,
     }),
   };
 
