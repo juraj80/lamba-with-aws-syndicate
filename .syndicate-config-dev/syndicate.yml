@@ -1,0 +1,17 @@
+account_id: '905418349556'
+deploy_target_bucket: syndicate-education-platform-custom-sandbox-artifacts-sbox02/830cb5eb/task02
+expiration: 2024-12-07 21:01:13.610462+00:00
+extended_prefix_mode: true
+iam_permissions_boundary: arn:aws:iam::905418349556:policy/eo_role_boundary
+project_path: C:\Users\juraj_klucka\Projects\SYNDICATE\lamba-with-aws-syndicate
+region: eu-central-1
+resources_prefix: cmtr-830cb5eb-
+tags:
+  course_id: SEP_GL_6
+  course_type: stm
+  student_id: 830cb5eb
+  type: student
+temp_aws_access_key_id: ASIA5FTZDTP2DN5DZPPV
+temp_aws_secret_access_key: OqfFR2lhiczs1ztao8ERqDachsmTevM/Bf1qqoZB
+temp_aws_session_token: IQoJb3JpZ2luX2VjEJT//////////wEaCXVzLWVhc3QtMSJHMEUCIQCQhgI1IcD8nQ27aRdp5O/3iFWVLzJSZZTPdrRv4727QAIgeCuy6erYj2eTi4eGCeu7Gz1Evx0+QnFF7lAUFI6ESJoq3QIITRAAGgw5MDU0MTgzNDk1NTYiDJz5PlL9yoH6K+eVLyq6Ao/HWjrpXPLoa3L54K01N1ZLRyYEpU8udlRNZTplSyn19N2G/ZJEvkSiB63ZAdx+vrKN1rSutL7tSU2qoLKqojwxAKwbjO0/y7sEB6XcUxcjg385LIw7GCvzGVf8sSFbPJJI+4VWpYEN/8ZmZ2NTIPXV8f08PfyzFIRS8vG5J08nQ15LzQh3Rs+4PDeMhaKtRoNs1yC0gJdv5iMqbeDyOCa3tqmMQHT7Ald/HlepPt9ABY7DUGty4J3rWob0DqeQmtOGstLGJu5f8pz3yluHVEZf/tB8nXMb1sNRHlbrHT75YPtG6+WSgpgHY7Mk7RVl1HqOIdEqrYdp0YQ969BGcGBOWrDGxmHQ46JjytgfzT6ZFAngGXq76HNsdMBhEdop2N6QX0Fp8vc7ksuoiJ9d+lpYyNlffivQn/e1MKfE0roGOp0BLkniGgu72JCKTGnDEVDgs0D1UIgBvfzp1ehtgGdNngtXoKVn2klUUzrPBO+150SQRhYGoajc6VvLY/FMoVxT9S/1mmZTUmT/MHKmrH/50VgorrUwBOMCkUYOk5p36a/Qh8wXAJ51iv29mH9GG0QcjSHpzNTYvYiQ7HZgdXWQGtI3iCw6jwEMS59qYF5fbNY3+9yaaHgBvgqwXLzT2g==
+use_temp_creds: false
