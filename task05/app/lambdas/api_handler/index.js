@@ -3,8 +3,10 @@ const { v4: uuidv4 } = require("uuid");
 
 const dynamoDb = new AWS.DynamoDB.DocumentClient();
 const TABLE_NAME = "Events";
+console.log("TABLE_NAME", TABLE_NAME);
 
 exports.handler = async (event) => {
+  console.log("event", event);
   try {
     const { principalId, content } = JSON.parse(event.body);
 
@@ -18,6 +20,8 @@ exports.handler = async (event) => {
       body: content,
     };
 
+    console.log("New Event:", JSON.stringify(eventItem, null, 2));
+
     const params = {
       TableName: TABLE_NAME,
       Item: eventItem,
@@ -27,7 +31,7 @@ exports.handler = async (event) => {
 
     return {
       statusCode: 201,
-      event: JSON.stringify(eventItem),
+      body: JSON.stringify({ event: eventItem }),
     };
   } catch (error) {
     return {
